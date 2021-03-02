@@ -136,7 +136,7 @@ El terminal nos devolverá la ruta absoluta en la que se encuentra el terminal.
 
 ### Crear una carpeta
 
-Para crear una carpeta utilizamos el comando `[mkdir](https://linux.die.net/man/1/mkdir)` (*make directory*). A continuación del comando, escribimos el nombre de la carpeta crear. La carpeta se nos creará en la carpeta en la que se encuentre el terminal en ese instante.
+Para crear una carpeta utilizamos el comando `mkdir` (*[make directory](https://linux.die.net/man/1/mkdir)*). A continuación del comando, escribimos el nombre de la carpeta crear. La carpeta se nos creará en la carpeta en la que se encuentre el terminal en ese instante.
 
 ```bash
 mkdir nombre_de_tu_carpeta
@@ -170,7 +170,7 @@ Estructura de directorios del ejemplo para los despistados.
 
 ### Entrar a una carpeta
 
-Para entrar a una carpeta, simplemente `[cd](https://linux.die.net/Linux-CLI/using-filesystem.html)` (*change directory*) y a continuación el *path*, relativo o absoluto, a la carpeta a la que queremos ir.
+Para entrar a una carpeta, simplemente `cd` (*[change directory](https://linux.die.net/Linux-CLI/using-filesystem.html)*) y a continuación el *path*, relativo o absoluto, a la carpeta a la que queremos ir.
 
 ```bash
 cd ruta_a_la_carpeta
@@ -222,7 +222,7 @@ cd ../..
 
 ### Cambiar el nombre de una carpeta (o archivo)
 
-No existe un comando para renombrar un archivo o carpeta. En su lugar, utilizamos el comando `[mv](https://linux.die.net/man/1/mv)` (*move*) para "mover" un archivo o carpeta "de una localización a otra" a la vez que aprovechamos para cambiar el nombre. Para renombrar la carpeta `carpeta_1` a `carpeta_2`, haríamos:
+No existe un comando para renombrar un archivo o carpeta. En su lugar, utilizamos el comando `mv` (*[move](https://linux.die.net/man/1/mv)*) para "mover" un archivo o carpeta "de una localización a otra" a la vez que aprovechamos para cambiar el nombre. Para renombrar la carpeta `carpeta_1` a `carpeta_2`, haríamos:
 
 ```bash
 mv carpeta_1 carpeta_2
@@ -230,7 +230,7 @@ mv carpeta_1 carpeta_2
 
 ### Eliminar un archivo
 
-Para eliminar un archivo, utilizamos el comando `[rm](https://linux.die.net/man/1/rm)` (*remove*). Para eliminar el archivo `mi_archivo.txt`, ejecutamos:
+Para eliminar un archivo, utilizamos el comando `rm` (*[remove](https://linux.die.net/man/1/rm)*). Para eliminar el archivo `mi_archivo.txt`, ejecutamos:
 
 ```bash
 rm mi_archivo.txt
@@ -258,7 +258,7 @@ rm -rf carpeta_1
 
 ### Listar carpetas y archivos
 
-Existe un comando que lista todos los archivos en una carpeta. Ese comando es `[ls](https://linux.die.net/man/1/ls)` (*list files/directories*). Si lo ejecutamos en nuestro *home*:
+Existe un comando que lista todos los archivos en una carpeta. Ese comando es `ls` (*[list files/directories](https://linux.die.net/man/1/ls)*). Si lo ejecutamos en nuestro *home*:
 
 ```bash
 ls
@@ -300,13 +300,13 @@ Tomando el ejemplo de la captura, los permisos de la carpeta `Descargas` son:
 
 ### Cambiar los permisos de una carpeta (o archivo)
 
-Ahora que ya conocemos un poco la magia negra que hay detrás de Linux, vamos a ver cómo dar permisos. Para ello utilizamos el comando `[chmod](https://linux.die.net/man/1/chmod)` (*change mode*). Utilizaríamos el comando del siguiente modo
+Ahora que ya conocemos un poco la magia negra que hay detrás de Linux, vamos a ver cómo dar permisos. Para ello utilizamos el comando `chmod` (*[change mode](https://linux.die.net/man/1/chmod)*). Utilizaríamos el comando del siguiente modo
 
 ```bash
 sudo chmod u=r+w+x Descargas
 ```
 
-Vamos a desengranar el comando. Primeramente, con `[sudo](https://linux.die.net/man/8/sudo)` ejecutamos el comando con permisos de administrador. Suele ser común utilizar permisos de administrador para configurar los permisos. En este caso no nos haría falta puesto que somos el usuario propietario del archivo y tenemos permisos para modificarlo, pero ante la duda, usad `sudo` cuando cambiéis permisos.
+Vamos a desengranar el comando. Primeramente, con `sudo` ejecutamos el comando con [permisos de administrador](https://linux.die.net/man/8/sudo). Suele ser común utilizar permisos de administrador para configurar los permisos. En este caso no nos haría falta puesto que somos el usuario propietario del archivo y tenemos permisos para modificarlo, pero ante la duda, usad `sudo` cuando cambiéis permisos.
 
 No es una buena práctica lo que os acabo de decir, pero suele ser común acabar haciéndolo así. Lo que nunca debéis de hacer es dar permisos a todo el mundo porque sí. ¡Eso sí es una mala práctica que se castiga con cadena perpetua!
 
@@ -322,7 +322,7 @@ Con esto, ya hemos modificado los permisos (puedes usar `ls -l` para comprobarlo
 
 ### Cambiar el usuario y/o grupo propietario de una carpeta (o archivo)
 
-Con el comando `[chown](https://linux.die.net/man/1/chown)` (*change owner*) cambiamos tanto el usuario como el grupo. Para cambiar el usuario y grupo propietario de la carpeta `Descargas` a `Fulanito` y `Menganito`, respectivamente, utilizaríamos:
+Con el comando `chown` (*[change owner](https://linux.die.net/man/1/chown)*) cambiamos tanto el usuario como el grupo. Para cambiar el usuario y grupo propietario de la carpeta `Descargas` a `Fulanito` y `Menganito`, respectivamente, utilizaríamos:
 
 ```bash
 sudo chown Fulanito:Menganito Descargas
