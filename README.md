@@ -153,7 +153,7 @@ Cualquier duda sobre la evaluación la podemos comentar en clase 👨‍🏫
 
 # Dudas y cuestiones
 
-Cualquier **duda** o problema durante estas sesiones (¡o cualquier cosa que haya que corregir en los guiones!), **crea un *issue* en el siguiente [enlace](https://github.com/Albert-Alvarez/ros-gopigo3/issues**. Deberás de **crearte un usuario en [GitHub](https://github.com/).** La idea es que todo quede centralizado aquí y futuros estudiantes encuentren aquí las dudas y soluciones que han tenido compañeros de cursos anteriores. Esto no se puede hacer en Moodle tal y como está configurado ahora mismo puesto que los mensajes del Foro no sobreviven de un año para el otro 😥
+Cualquier **duda** o problema durante estas sesiones (¡o cualquier cosa que haya que corregir en los guiones!), **crea un *issue* en el siguiente [enlace](https://github.com/Albert-Alvarez/ros-gopigo3/issues)**. Deberás de **crearte un usuario en [GitHub](https://github.com/).** La idea es que todo quede centralizado aquí y futuros estudiantes encuentren aquí las dudas y soluciones que han tenido compañeros de cursos anteriores. Esto no se puede hacer en Moodle tal y como está configurado ahora mismo puesto que los mensajes del Foro no sobreviven de un año para el otro 😥
 
 # Conclusiones
 
