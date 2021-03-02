@@ -8,6 +8,38 @@ Una vez tengamos todo instalado, aprenderemos a realizar **operaciones básicas 
 
 Por último, **ejecutaremos un pequeño proyecto en ROS** para verlo en ejecución y ver que **todo está instalado correctamente** y entendemos **qué es lo que está haciendo ROS** ante nuestros ojos.
 
+- [S1 — Configuración de nuestro ordenador, operaciones básicas en Linux y super-simulación de una tortuga](#s1--configuración-de-nuestro-ordenador-operaciones-básicas-en-linux-y-super-simulación-de-una-tortuga)
+- [Objetivos](#objetivos)
+- [Procedimiento](#procedimiento)
+  - [Instalación de la máquina virtual](#instalación-de-la-máquina-virtual)
+    - [Instalación de VirtualBox](#instalación-de-virtualbox)
+    - [Añadir VM](#añadir-vm)
+    - [Configurar VM](#configurar-vm)
+    - [Arrancar la VM](#arrancar-la-vm)
+  - [Operaciones básicas con el terminal](#operaciones-básicas-con-el-terminal)
+    - [Abrir un terminal e identificar sus partes](#abrir-un-terminal-e-identificar-sus-partes)
+    - [Encontrar la ruta en la que nos encontramos](#encontrar-la-ruta-en-la-que-nos-encontramos)
+    - [Crear una carpeta](#crear-una-carpeta)
+    - [Rutas absolutas y relativas](#rutas-absolutas-y-relativas)
+    - [Entrar a una carpeta](#entrar-a-una-carpeta)
+    - [Caracteres especiales](#caracteres-especiales)
+    - [Cambiar el nombre de una carpeta (o archivo)](#cambiar-el-nombre-de-una-carpeta-o-archivo)
+    - [Eliminar un archivo](#eliminar-un-archivo)
+    - [Eliminar una carpeta](#eliminar-una-carpeta)
+    - [Listar carpetas y archivos](#listar-carpetas-y-archivos)
+    - [Cambiar los permisos de una carpeta (o archivo)](#cambiar-los-permisos-de-una-carpeta-o-archivo)
+    - [Cambiar el usuario y/o grupo propietario de una carpeta (o archivo)](#cambiar-el-usuario-yo-grupo-propietario-de-una-carpeta-o-archivo)
+    - [Scripts y el comando source](#scripts-y-el-comando-source)
+    - [Trucos y atajos útiles](#trucos-y-atajos-útiles)
+  - [Simulación de una tortuga](#simulación-de-una-tortuga)
+    - [Iniciar el nodo master](#iniciar-el-nodo-master)
+    - [Ejecutar nodos](#ejecutar-nodos)
+    - [Ver topics existentes, sus tipos y mensajes publicados](#ver-topics-existentes-sus-tipos-y-mensajes-publicados)
+    - [Visualización de redes ROS con rqt_graph](#visualización-de-redes-ros-con-rqt_graph)
+- [Reto](#reto)
+- [Evaluación](#evaluación)
+- [Conclusiones](#conclusiones)
+
 # Objetivos
 
 - Tener listo nuestro PC para poder desarrollar proyectos en ROS.
