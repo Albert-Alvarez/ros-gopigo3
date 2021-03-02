@@ -4,8 +4,7 @@
 
 # Contenidos
 
-- [Aprendiendo ROS con GoPiGo3](#aprendiendo-ros-con-gopigo3)
-- [Contenidos](#contenidos)
+- [Introducción](#)
 - [Qué es ROS](#qué-es-ros)
 - [El Twitter de los robots](#el-twitter-de-los-robots)
 - [Objetivos](#objetivos)
