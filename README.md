@@ -40,7 +40,7 @@ Todos alguna vez lo hemos visto. Es el robot [Atlas de Boston Electronics](https
 
 Bien, pues todos estos problemas son algunos de los que nos viene a resolver ROS. Pero, y ahora sí que toca hablar de ello, ¿qué es ROS?
 
-**ROS** es un ***software*** que actúa como ***middleware*** entre los diferentes elementos que conforman un robot. ¿Qué es un *[middleware](https://es.wikipedia.org/wiki/Middleware)*? El propio nombre nos lo deja entrever... *middle*... en medio. Es un *[**framework](https://es.wikipedia.org/wiki/Framework)*** (iros quedando con los palabros) que sirve de **interfaz** entre los diferentes elementos de un robot para habilitar su **intercomunicación**. En ROS tenemos elementos/conceptos como nodos, *topics*, *packages*, etc. Per antes de ver esos conceptos, vamos a intentar hacer una analogía que nos permita entender qué hace ROS.
+**ROS** es un ***software*** que actúa como ***middleware*** entre los diferentes elementos que conforman un robot. ¿Qué es un *[middleware](https://es.wikipedia.org/wiki/Middleware)*? El propio nombre nos lo deja entrever... *middle*... en medio. Es un **[framework](https://es.wikipedia.org/wiki/Framework)** (iros quedando con los palabros) que sirve de **interfaz** entre los diferentes elementos de un robot para habilitar su **intercomunicación**. En ROS tenemos elementos/conceptos como nodos, *topics*, *packages*, etc. Per antes de ver esos conceptos, vamos a intentar hacer una analogía que nos permita entender qué hace ROS.
 
 # El Twitter de los robots
 
@@ -147,4 +147,4 @@ Cualquier **duda** o problema durante estas sesiones (¡o cualquier cosa que hay
 
 Pues en este primer documento de presentación hemos visto algo muy importante: **qué es ROS**, algunos de los **problemas que resuelve** y **qué elementos conforman** una red ROS. También hemos presentado las diferentes **sesiones de prácticas** y cómo las **planificaremos**. Hemos visto una pincelada de lo que será el **proyecto**. Y finalmente, hemos echado un ojo a lo que será la **evaluación de las prácticas de ROS**.
 
-Con esto, ya puedes ir a la [primera sesión](ROS%20con%20GoPiGo3%20-%20S1.md) y leerte el guion antes de venir a clase **para poder hacer el cuestionario online nada más llegues a clase**. Además, **en la primera sesión instalaremos una serie de *software*, por lo que **es vital** que leas el guion con antelación y **que traigas todo descargado (que no instalado) de casa**.
+Con esto, ya puedes ir a la [primera sesión](ROS%20con%20GoPiGo3%20-%20S1.md) y leerte el guion antes de venir a clase **para poder hacer el cuestionario online nada más llegues a clase**. Además, **en la primera sesión instalaremos una serie de *software***, por lo que **es vital** que leas el guion con antelación y **que traigas todo descargado (que no instalado) de casa**.
