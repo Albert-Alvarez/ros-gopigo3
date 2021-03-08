@@ -10,7 +10,7 @@ Por último, **ejecutaremos un pequeño proyecto en ROS** para verlo en ejecuci�
 
 # Contenidos
 
-- [S1 — Configuración de nuestro ordenador, operaciones básicas en Linux y super-simulación de una tortuga](#s1--configuración-de-nuestro-ordenador-operaciones-básicas-en-linux-y-super-simulación-de-una-tortuga)
+- [Introducción](#s1--configuración-de-nuestro-ordenador-operaciones-básicas-en-linux-y-super-simulación-de-una-tortuga)
 - [Contenidos](#contenidos)
 - [Objetivos](#objetivos)
 - [Procedimiento](#procedimiento)
