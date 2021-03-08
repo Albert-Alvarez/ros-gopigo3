@@ -44,7 +44,7 @@ Arremángate, ¡*allévamos*!
 
 ## Preparar un *workspace*
 
-Vamos a crear nuestra carpeta para desarrollar nuestro proyecto en ROS; es decir, nuestro *workspace*. Te daré la indicaciones a modo de comandos en el terminal. Si algún comando no te acuerdas cómo funciona o qué hace, no dudes en echar un ojo al [guión/chuleta de la sesión anterior](\ROS%20con%20GoPiGo3%20-%20S1.md) 😉
+Vamos a crear nuestra carpeta para desarrollar nuestro proyecto en ROS; es decir, nuestro *workspace*. Te daré la indicaciones a modo de comandos en el terminal. Si algún comando no te acuerdas cómo funciona o qué hace, no dudes en echar un ojo al [guión/chuleta de la sesión anterior](ROS%20con%20GoPiGo3%20-%20S1.md) 😉
 
 En nuestra máquina virtual (VM), abrimos un nuevo terminal. Por defecto, nada más abrir n terminal recién, estaremos en nuestro *home*. Allí creamos una carpeta donde colocaremos todos los *workspaces* que crearemos durante las prácticas de ROS. Esa carpeta se llamará `Aprendiendo-ROS-con-GoPiGo3`:
 
