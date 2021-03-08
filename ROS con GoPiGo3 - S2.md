@@ -262,7 +262,7 @@ cd scripts
 gedit mi-publisher.py
 ```
 
-[`mi-publisher.py`](http://mi-publisher.py) es el nombre que le damos al nodo.
+`mi-publisher.py` es el nombre que le damos al nodo.
 
 Pondremos el siguiente código en el archivo. Os explico/describo el código directamente en los comentarios:
 
