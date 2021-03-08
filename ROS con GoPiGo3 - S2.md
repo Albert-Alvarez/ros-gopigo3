@@ -97,7 +97,7 @@ Una vez lanzado, se iniciará la compilación y el terminal nos dará informaci�
 
 Es muy importante que te acostumbres a leer los logs que te da el terminal. Te informarán sobre errores y sus causas. Esto te permitirá solucionar errores más rápidamente. Además, el día de mañana en el trabajo, ¡no habrá un profe a quien preguntar! Y no irás al jefe a decirle "Me da error. ¿Qué hago?" 😅 Coge el hábito de mirar el log, ver si hay algún error y tratar de solucionarlo. ¡Muchas veces hasta los logs te dan la propia solución!
 
-Como he comentado antes, ahora en nuestro *workspace* se nos han creado dos carpetas, `build` y `devel`. Estas contienen nuestros archivos de compilación (`[build](https://wiki.ros.org/catkin/workspaces#Build_Space)`) y nuestro proyecto compilado listo para ser instalado (`[devel](https://wiki.ros.org/catkin/workspaces#Development_.28Devel.29_Space)`).
+Como he comentado antes, ahora en nuestro *workspace* se nos han creado dos carpetas, `build` y `devel`. Estas contienen nuestros archivos de compilación ([`build`](https://wiki.ros.org/catkin/workspaces#Build_Space)) y nuestro proyecto compilado listo para ser instalado ([`devel`](https://wiki.ros.org/catkin/workspaces#Development_.28Devel.29_Space)).
 
 Un aspecto importante de ROS: la **compilación es acumulativa**. ¿Qué quiere decir? Pues que si un *package* ya ha sido compilado anteriormente y no se ha modificado, al hacer un `catkin_make`, este *package* no volverá a ser compilado. Catkin sabe qué *packages* ya han sido compilados mirando la carpeta `build`, por lo que si quieres volver a compilar un *package*, simplemente elimina las carpeta `build` y `devel`.
 
@@ -105,7 +105,7 @@ Un aspecto importante de ROS: la **compilación es acumulativa**. ¿Qué quiere 
 rm -rf build/ devel/
 ```
 
-¿Cuándo vas a querer volver a compilar un *package* ya compilado? Pues imagínate que alguien te pasa su *workspace* y no toma la precaución de enviarte el *workspace* sin las carpetas `build` y `devel`. En esas carpetas estarán los archivos compilados, pero con las rutas de SU ordenador. Es decir, al instalar los *packages,* no encontrará tus archivos porque estará buscando en rutas erróneas. ¿Solución? Eliminar las carpetas `build` y `devel`` y volver a compilar. Otra moraleja, cuando compartas tus *workspaces*/proyectos en ROS, no envies las carpetas `build` y `devel`.
+¿Cuándo vas a querer volver a compilar un *package* ya compilado? Pues imagínate que alguien te pasa su *workspace* y no toma la precaución de enviarte el *workspace* sin las carpetas `build` y `devel`. En esas carpetas estarán los archivos compilados, pero con las rutas de SU ordenador. Es decir, al instalar los *packages,* no encontrará tus archivos porque estará buscando en rutas erróneas. ¿Solución? Eliminar las carpetas `build` y `devel` y volver a compilar. Otra moraleja, cuando compartas tus *workspaces*/proyectos en ROS, no envies las carpetas `build` y `devel`.
 
 ## Instalación de *packages*
 
@@ -262,7 +262,7 @@ cd scripts
 gedit mi-publisher.py
 ```
 
-`[mi-publisher.py](http://mi-publisher.py)` es el nombre que le damos al nodo.
+[`mi-publisher.py`](http://mi-publisher.py) es el nombre que le damos al nodo.
 
 Pondremos el siguiente código en el archivo. Os explico/describo el código directamente en los comentarios:
 
@@ -567,7 +567,7 @@ Así que, básicamente, haz que ping envié su mensaje cada 1 s hasta que pong c
 
 # Evaluación
 
-Como entregables a evaluar de esta práctica está el **test online previo** (disponible en el Campus Virtual) y un **archivo comprimido `.ZIP` con el *workspace* del reto** (no incluyas tus carpeta `build` y `devel`) (tarea disponible en el Campus Virtual para su entrega). 
+Como entregables a evaluar de esta práctica está el **test online previo** (disponible en el Campus Virtual) y un **archivo comprimido `.ZIP` con el *workspace* del reto** (no incluyas tus carpetas `build` y `devel`) (tarea disponible en el Campus Virtual para su entrega). 
 
 # Conclusiones
 
