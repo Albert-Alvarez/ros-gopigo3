@@ -1,6 +1,6 @@
 # Aprendiendo ROS con GoPiGo3
 
-<blockquote><a rel="cc:attributionURL" property="dct:title" href="[https://github.com/Albert-Alvarez/ros-con-gopigo3](https://github.com/Albert-Alvarez/ros-con-gopigo3)">Aprendiendo ROS con GoPi</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="[https://thealbert.dev/](https://thealbert.dev/)">Albert Álvarez Carulla</a> se distribuye bajo una <a rel="license" href="[https://creativecommons.org/licenses/by-nd/4.0/deed.es](https://creativecommons.org/licenses/by-nd/4.0/deed.es)">Licencia Creative Commons Atribución-SinDerivadas 4.0 Internacional (CC BY-ND 4.0)</a>.<br /><img alt="Licencia Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" /></a></blockquote>
+<blockquote><a rel="cc:attributionURL" property="dct:title" href="https://github.com/Albert-Alvarez/ros-gopigo3">Aprendiendo ROS con GoPi</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://thealbert.dev/">Albert Álvarez Carulla</a> se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.es">Licencia Creative Commons Atribución-SinDerivadas 4.0 Internacional (CC BY-ND 4.0)</a>.<br /><img alt="Licencia Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" /></a></blockquote>
 
 # Contenidos
 
@@ -17,7 +17,7 @@
 Un sistema robótico o robot es un sistema de por sí complejo. De hecho, **la robótica es la [sinergia](https://dle.rae.es/sinergia) de tres ingenierías** distintas: la **electrónica**, la **informática** y la **mecánica**. Para que un robot lleve a cabo su tarea correctamente, estos tres pilares deben trabajar coordinadamente para conseguir ese fin común. ¿Te imaginas tener que ser ingeniero electrónico, ingeniero informático e ingeniero mecánico para poder hacer un robot? Yo no me veo, vamos. Además, no habría espacio en la pared para colgar tanto título 😅 Es por ello que, **en proyectos de robótica, lo que impera es el trabajo en equipos multidisciplinares** donde diferentes miembros son ingenieros de las distintas ramas.
 
 <p align="center">
-<img src="assets/imgs/robotica-venn.svg" width=350 />
+<img src="assets/README/imgs/robotica-venn.svg" width=350 />
 </p>
 
 Aunque el trabajo de uno sea aportar en esos aspectos ligados a su rama de la ingeniería, sí que es necesario que todos los miembros del equipo multidisciplinar tengan un conocimiento mínimo del resto de ramas para poder mantener una comunicación intraequipo efectiva. Resumiendo, en robótica, aunque seas ingeniero electrónico, no irás muy lejos si no sabes qué es el estátor de un motor DC. Lo mismo le sucede a los ingenieros mecánicos, los cuáles no deben conocer los detalles de cómo implementarás los circuitos electrónicos del robot; pero en una conversación con él/ella, debe de entenderte cuando le digas que debes de cambiar el circuito porque el *duty cylce* de la señal PWM se está configurando mal.
@@ -33,7 +33,7 @@ Que no nos engañen ("que nos digan la verdad"), ROS viene de las siglas *Roboti
 Antes de ver qué es ROS y en qué consiste, vamos a ver primero **por qué lo necesitamos**. Para ello, imaginaros el siguiente robot.
 
 <p align="center">
-<img src="assets/imgs/atlas.png" width=350 />
+<img src="assets/README/imgs/atlas.png" width=350 />
 </p>
 
 Todos alguna vez lo hemos visto. Es el robot [Atlas de Boston Electronics](https://www.youtube.com/watch?v=_sBBaNYex3E). Este robot tiene 28 uniones hidráulicas y además una infinidad de sensores para analizar el terreno, para obtener la orientación, para monitorizar el par aplicado por los diferentes motores, etc. ¿Os imagináis hacer que cada uno de los sensores y actuadores puedan comunicarse entre sí sin errores o colisiones, dotarle de una capacidad computacional brutal para que pueda moverse por un terreno irregular y que además podamos monitorizarlo externamente desde un PC? Venga va, si a veces nos encallamos con un NACK en la comunicación I2C con un triste sensor de temperatura. ¡Hacer todo esto a bajo nivel sería una montaña de trabajo descomunal! 😱 Ya no entro en qué pasa si queremos hacer una actualización del robot y queremos añadir una serie de sensores y actuadores nuevos que deben de incorporarse a la comunicación ya existente. O por ejemplo, ¿qué ocurre si queremos simularlo todo antes de probar el robot?
@@ -53,7 +53,7 @@ Imaginemos que diferentes partes del robot han cobrado vida cual [Toy Story](htt
 Primeramente, tenemos a los **usuarios** `@MotoresDC`, `@Teclado` y `@Controlador`. Estos, como usuarios, pueden **publicar Tweets** en la red social, como cualquier otro usuario. A su vez, estos pueden **seguir los Tweets** de otros usuarios.
 
 <p align="center">
-<img src="assets/imgs/perfil-motoresdc.png" width=350 />
+<img src="assets/README/imgs/perfil-motoresdc.png" width=350 />
 </p>
 
 Generación Z: — "¿En serio me vas a explicar cómo van las redes sociales?"
@@ -65,7 +65,7 @@ Cada **usuario tiene un fin o tarea** en su día a día: publicar algunos vídeo
 El usuario `@Teclado` se dedica a publicar Tweets con las teclas/flechas que se le pulsan generando de este modo un hilo.
 
 <p align="center">
-<img src="assets/imgs/hilo-teclado.png" width=350 />
+<img src="assets/README/imgs/hilo-teclado.png" width=350 />
 </p>
 
 Por otro lado, el usuario `@Controlador` sigue al usuario `@Teclado` y está pendiente de lo que va publicando en ese recién creado hilo. En función de lo que va leyendo del hilo, calcula qué valores de *duty cycle* corresponderían a cada motor del robot y los publica en su propio hilo.
@@ -75,7 +75,7 @@ Finalmente, tenemos al usuario `@MotoresDC` que sigue al usuario `@Controlador`.
 Al final, lo que tenemos es una red tal como esta.
 
 <p align="center">
-<img src="assets/imgs/red-twitter.png" />
+<img src="assets/README/imgs/red-twitter.png" />
 </p>
 
 Obviamente, nuestro robot no está formado por Ibais, AuronPlays, PaposMCs, ni nada por el estilo, sino que son partes del robot y la "red social" que los une es ROS.
@@ -94,7 +94,7 @@ En la versión 2.0 de ROS, la necesidad de un master es suprimida y la red es to
 Con todo esto, la red anterior se convertiría en la siguiente red en ROS.
 
 <p align="center">
-<img src="assets/imgs/ros_graph.png" width=550 />
+<img src="assets/README/imgs/ros_graph.png" width=550 />
 </p>
 
 Otros detalles como *workspaces*, *packages* y demás, lo iremos viendo en las sesiones de prácticas.

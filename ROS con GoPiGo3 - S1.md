@@ -1,6 +1,6 @@
 # S1 — Configuración de nuestro ordenador, operaciones básicas en Linux y super-simulación de una tortuga
 
-<blockquote><a rel="cc:attributionURL" property="dct:title" href="[https://github.com/Albert-Alvarez/ros-con-gopigo3](https://github.com/Albert-Alvarez/ros-con-gopigo3)">S1 - Configuración de nuestro ordenador, operaciones básicas en Linux y super-simulación de una tortuga</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="[https://thealbert.dev/](https://thealbert.dev/)">Albert Álvarez Carulla</a> se distribuye bajo una <a rel="license" href="[https://creativecommons.org/licenses/by-nd/4.0/deed.es](https://creativecommons.org/licenses/by-nd/4.0/deed.es)">Licencia Creative Commons Atribución-SinDerivadas 4.0 Internacional (CC BY-ND 4.0)</a>.<br /><img alt="Licencia Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" /></a></blockquote>
+<blockquote><a rel="cc:attributionURL" property="dct:title" href="https://github.com/Albert-Alvarez/ros-gopigo3)">S1 - Configuración de nuestro ordenador, operaciones básicas en Linux y super-simulación de una tortuga</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://thealbert.dev/">Albert Álvarez Carulla</a> se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.es">Licencia Creative Commons Atribución-SinDerivadas 4.0 Internacional (CC BY-ND 4.0)</a>.<br /><img alt="Licencia Creative Commons" style="border-width:0" src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" /></a></blockquote>
 
 Vamos a empezar por el principio e **instalaremos** todo lo necesario para poder trabajar con ROS.  Para tu inmensa suerte 😎, utilizaremos una **máquina virtual** previamente configurada con todo el *software* ya instalado; por lo que la instalación será sencilla.
 
@@ -10,7 +10,8 @@ Por último, **ejecutaremos un pequeño proyecto en ROS** para verlo en ejecuci�
 
 # Contenidos
 
-- [Introducción](#s1--configuración-de-nuestro-ordenador-operaciones-básicas-en-linux-y-super-simulación-de-una-tortuga)
+- [S1 — Configuración de nuestro ordenador, operaciones básicas en Linux y super-simulación de una tortuga](#s1--configuración-de-nuestro-ordenador-operaciones-básicas-en-linux-y-super-simulación-de-una-tortuga)
+- [Contenidos](#contenidos)
 - [Objetivos](#objetivos)
 - [Procedimiento](#procedimiento)
   - [Instalación de la máquina virtual](#instalación-de-la-máquina-virtual)
@@ -85,7 +86,7 @@ Descárgate la carpeta entera haciendo clic en "Descargar" arriba del todo de la
 
 Para añadir la VM descargada a tu VirtualBox, abre este último y después clica en el menú `Máquina  > Añadir...`. En la ventana emergente que aparecerá, ves a la carpeta que acabas de descargar y escoge el archivo con extensión `.vbox` que hay en ella.
 
-![assets/imgs/Untitled.png](assets/imgs/Untitled.png)
+![assets/S1/imgs/Untitled.png](assets/S1/imgs/Untitled.png)
 
 ### Configurar VM
 
@@ -120,9 +121,9 @@ Acuérdate, sobretodo, de la contraseña ya que el terminal te la estará pidien
 
 Por último, para asegurarte que puede ver la VM correctamente cuando maximizas la ventana o la pongas en pantalla completa, y que puedes copiar y pegar texto entre la VM y tu ordenador, asegúrate de tener la siguiente configuración.
 
-![assets/imgs/Untitled%201.png](assets/imgs/Untitled%201.png)
+![assets/S1/imgs/Untitled%201.png](assets/S1/imgs/Untitled%201.png)
 
-![assets/imgs/Untitled%202.png](assets/imgs/Untitled%202.png)
+![assets/S1/imgs/Untitled%202.png](assets/S1/imgs/Untitled%202.png)
 
 Los usuarios de Macbook con pantalla Retina, aseguraros de instalar la aplicación [EasyRes](https://apps.apple.com/es/app/easyres/id688211836) y desactivar Retina para que os vaya fluida la VM.
 
@@ -142,7 +143,7 @@ Para abrir un terminal o bien usamos el atajo <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kb
 
 Al abrirlo, nos aparecerá la siguiente ventana.
 
-![assets/imgs/terminal-limpio.png](assets/imgs/terminal-limpio.png)
+![assets/S1/imgs/terminal-limpio.png](assets/S1/imgs/terminal-limpio.png)
 
 En ella identificamos dos partes principales: el ***prompt*** y el **cursor**.
 
@@ -166,7 +167,7 @@ pwd
 
 El terminal nos devolverá la ruta absoluta en la que se encuentra el terminal.
 
-![assets/imgs/Untitled%203.png](assets/imgs/Untitled%203.png)
+![assets/S1/imgs/Untitled%203.png](assets/S1/imgs/Untitled%203.png)
 
 ### Crear una carpeta
 
@@ -300,7 +301,7 @@ ls
 
 Obtendremos un listado de los archivos y carpeta en la ruta actual.
 
-![assets/imgs/Untitled%204.png](assets/imgs/Untitled%204.png)
+![assets/S1/imgs/Untitled%204.png](assets/S1/imgs/Untitled%204.png)
 
 Ahora ejecutaremos el mismo comando, añadiendo el parámetro o *switch* `-l`. Es decir:
 
@@ -310,7 +311,7 @@ ls -l
 
 Ahora el comando nos sigue dando un listado de los archivos, pero además adjunta una serie de datos referentes a cada uno de los archivos.
 
-![assets/imgs/Untitled%205.png](assets/imgs/Untitled%205.png)
+![assets/S1/imgs/Untitled%205.png](assets/S1/imgs/Untitled%205.png)
 
 Vamos por partes.
 
@@ -453,7 +454,7 @@ roscore
 
 Se te quedará el terminal tal que así.
 
-![assets/imgs/Untitled%206.png](assets/imgs/Untitled%206.png)
+![assets/S1/imgs/Untitled%206.png](assets/S1/imgs/Untitled%206.png)
 
 Sin problema. Todo correcto. Este terminal quedará corriendo `roscore` hasta que lo detengamos a mano (o *crashee* por algún motivo). Si queremos pararlo, utilizamos el atajo de teclado <kbd>CTRL</kbd>+<kbd>C</kbd>.
 
@@ -465,13 +466,13 @@ Ahora vamos a lanzar los nodos turtlesim y turtle_teleop_key. Puesto que el term
 rosrun turtlesim turtlesim_node
 ```
 
-![assets/imgs/Untitled%207.png](assets/imgs/Untitled%207.png)
+![assets/S1/imgs/Untitled%207.png](assets/S1/imgs/Untitled%207.png)
 
 Al comando `rosrun` le sigue el nombre del *package* y el nombre del nodo. **Los nodos se agrupan en *packages*.** Seguidamente, podrían ir parámetros que podríamos haber indicado al nodo, pero no ha sido el caso.
 
 Una nueva ventana aparecerá con la tortuguita en cuestión 🐢
 
-![assets/imgs/Untitled%208.png](assets/imgs/Untitled%208.png)
+![assets/S1/imgs/Untitled%208.png](assets/S1/imgs/Untitled%208.png)
 
 Ahora, en un nuevo terminal/pestaña (porque nuevamente se nos queda el terminal bloqueado en el nodo que está corriendo), ejecutamos el siguiente comando para correr el nodo turtle_teleop_key:
 
@@ -481,9 +482,9 @@ rosrun turtlesim turtle_teleop_key
 
 Hecho esto, si en este terminal pulsamos las flechas del teclado, veremos como la tortuga se desplaza a través de la ventana.
 
-![assets/imgs/Untitled%209.png](assets/imgs/Untitled%209.png)
+![assets/S1/imgs/Untitled%209.png](assets/S1/imgs/Untitled%209.png)
 
-![assets/imgs/Untitled%2010.png](assets/imgs/Untitled%2010.png)
+![assets/S1/imgs/Untitled%2010.png](assets/S1/imgs/Untitled%2010.png)
 
 El resultado... a ver... espectacular no es 🤣, pero nos servirá para ahora ver qué está haciendo ROS entre bambalinas y acabar de entender cómo opera.
 
@@ -505,7 +506,7 @@ De todas las opciones, ahora mismo nos quedamos con la opción `rostopic list`. 
 rostopic list
 ```
 
-![assets/imgs/Untitled%2011.png](assets/imgs/Untitled%2011.png)
+![assets/S1/imgs/Untitled%2011.png](assets/S1/imgs/Untitled%2011.png)
 
 Como puedes ver, hay más de un *topic*, y no solo el *topic* `/turtle1/cmd_vel` que esperábamos. Los *topics* `/rosout` y `/rosout_agg` son *topics* donde van aparar los logs generados durante la ejecución de ROS (útiles para depurar). El *topic* `/turtle1/cmd_vel` es donde el nodo turtle_teleop_key publica las velocidades que leerá el nodo turtlesim_node. El nodo turtlesim_node publica en el *topic* `/turtle1/color_sensor` el color de fondo de la ventana por la que navega la tortuga. Por último, también publica su actual posición en el *topic* `/turtle1/pose`.
 
@@ -515,7 +516,7 @@ En nuestro caso, vamos a centrarnos en el *topic* `/turtle1/cmd_vel`. Primeramen
 rostopic type /turtle1/cmd_vel
 ```
 
-![assets/imgs/Untitled%2012.png](assets/imgs/Untitled%2012.png)
+![assets/S1/imgs/Untitled%2012.png](assets/S1/imgs/Untitled%2012.png)
 
 Los mensajes publicados en el *topic* `/turtle1/cmd_vel` son del tipo `geometry_msgs/Twist` donde `geometry_msgs` es el nombre del *package* al que pertenece el tipo de mensaje y `Twist` el tipo de mensaje *per se*.
 
@@ -525,7 +526,7 @@ Otro modo de ver el tipo y otra información muy útil como los nodos suscritos 
 rostopic info /turtle1/cmd_vel
 ```
 
-![assets/imgs/Untitled%2013.png](assets/imgs/Untitled%2013.png)
+![assets/S1/imgs/Untitled%2013.png](assets/S1/imgs/Untitled%2013.png)
 
 Nada que añadir. La información que ofrece el terminal es clara y concisa 🧐
 
@@ -535,7 +536,7 @@ También puede ser interesante en qué consiste el tipo de mensaje utilizado. Pa
 rosmsg show geometry_msgs/Twist
 ```
 
-![assets/imgs/Untitled%2014.png](assets/imgs/Untitled%2014.png)
+![assets/S1/imgs/Untitled%2014.png](assets/S1/imgs/Untitled%2014.png)
 
 Y, básicamente, vemos que los mensajes en el *topic* `/turtle1/cmd_vel` consisten en 2 vectores de 3 dimensiones (un vector para indicar la velocidad lineal y otro para la velocidad angular) y que las variables son de tipo `float64`.
 
@@ -555,7 +556,7 @@ Espectacular...
 
 No sale nada... ¿Porqué? Pues porque nadie está publicando ningún mensaje en ese *topic*. En ese *topic* solo publica el nodo turtle_teleop_key al pulsarse las flechas del teclado. Si no pulsas flechas, no se publican velocidades. Para algún mensaje, vuelve al terminal donde se estaba ejecutando turtle_teleop_key y pulsa un par o tres de flechas. Vuelve ahora al último terminal y comprueba como ahora sí aparecen los mensajes que turtle_teleop_key  está publicando en `/turtle1/cmd_vel`.
 
-![assets/imgs/Untitled%2015.png](assets/imgs/Untitled%2015.png)
+![assets/S1/imgs/Untitled%2015.png](assets/S1/imgs/Untitled%2015.png)
 
 Pulsa <kbd>CTRL</kbd>+<kbd>C</kbd> para salir del `rostopic echo`.
 
@@ -600,7 +601,7 @@ rqt_graph
 
 Te aparecerá una ventana donde podrás ver el diagrama de la red ROS.
 
-![assets/imgs/rosgraph.svg](assets/imgs/rosgraph.svg)
+![assets/S1/imgs/rosgraph.svg](assets/S1/imgs/rosgraph.svg)
 
 Los óvalos corresponden a los nodos y las flechas los *topics*. En esta red tan sencilla no hay nada más que destacar y ya le sacaremos más punta a esta útil herramienta en sesiones venideras 😉
 
@@ -614,7 +615,7 @@ Como entregables a evaluar de esta práctica solo está el **test online previo*
 
 # Conclusiones
 
-![assets/imgs/Untitled%2016.png](assets/imgs/Untitled%2016.png)
+![assets/S1/imgs/Untitled%2016.png](assets/S1/imgs/Untitled%2016.png)
 
 Hombre/mujer... no diría tanto 😅, porque solo hemos visto la punta del iceberg, pero ¡*not bad* todo lo que hemos visto en esta sesión!
 
