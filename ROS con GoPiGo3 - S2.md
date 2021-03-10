@@ -12,6 +12,8 @@ Como hemos comentado al principio, crearemos dos nodos en este *package*. Primer
 
 Arremángate, ¡*allévamos*!
 
+> **IMPORTANTE:** Cualquier **duda** o problema durante esta sesión (¡o cualquier cosa que haya que corregir en el guión!), **cread un *issue* en el siguiente [enlace](https://github.com/Albert-Alvarez/ros-con-gopigo3/issues)**. Deberéis de **crearos un usuario en [GitHub](https://github.com/)** La idea es que todo quede centralizado aquí y futuros estudiantes encuentren aquí las dudas y soluciones que han tenido compañeros de cursos anteriores. Esto no se puede hacer en Moodle tal y como está configurado ahora mismo puesto que los mensajes del Foro no sobreviven de un año para el otro 😥
+
 # Contenidos
 
 - [Introducción](#s2--creación-de-un-packagenodo-publicación-y-suscripción-a-topics)
@@ -154,7 +156,7 @@ catkin_create_pkg mi-primer-package rospy std_msgs
 
 ![assets/S2/imgs/Untitled%201.png](assets/S2/imgs/Untitled%201.png)
 
-Se nos crea el *package*. Una nueva carpeta llamada `mi-primer-package` aparecerá dentro de la carpeta `src`.  Recuerda que puedes ver las carpetas y archivos en la actual carpeta mediante el comando `ls` o, mejor aún, `ls -l`. Además, se nos "anima" a modificar los valores de un archivo llamado `package.xm` dentro de nuestro *package*. Abramos ese `package.xml`. Lo abriremos con `gedit`, el "Bloc de Notas" de Ubuntu.
+Se nos crea el *package*. Una nueva carpeta llamada `mi-primer-package` aparecerá dentro de la carpeta `src`.  Recuerda que puedes ver las carpetas y archivos en la actual carpeta mediante el comando `ls` o, mejor aún, `ls -l`. Además, se nos "anima" a modificar los valores de un archivo llamado `package.xml` dentro de nuestro *package*. Abramos ese `package.xml`. Lo abriremos con `gedit`, el "Bloc de Notas" de Ubuntu.
 
 ```bash
 cd mi-primer-package
@@ -471,7 +473,7 @@ En un terminal nuevo, ejecuta el comando `rqt_graph` y échale un vistazo a qué
 <img src="assets/S2/imgs/rosgraph.svg"/>
 </p>
 
-Una curiosidad. Abre un nuevo terminal y ejecuta `rostopic echo /chat`. Deberías de ver los mensajes del *topic*. ¿Qué pinta tiene ahora el rq_graph?
+Una curiosidad. Abre un nuevo terminal y ejecuta `rostopic echo /chat`. Deberías de ver los mensajes del *topic*. ¿Qué pinta tiene ahora el rqt_graph?
 
 <p align="center">
 <img src="assets/S2/imgs/rosgraph-echo.svg"/>
