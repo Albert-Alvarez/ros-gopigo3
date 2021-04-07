@@ -12,9 +12,6 @@
 
 # Contenidos
 
-- [S6 — *Hello*, GoPiGo3](#s6--hello-gopigo3)
-- [Avisos prévios](#avisos-prévios)
-- [Contenidos](#contenidos)
 - [Objetivos](#objetivos)
 - [Procedimiento](#procedimiento)
   - [Modo *bridge*](#modo-bridge)
