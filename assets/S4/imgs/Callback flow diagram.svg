@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2993 3721" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-3493,-31)">
+        <g id="Callback-flow-diagram" serif:id="Callback flow diagram" transform="matrix(4.22616,0,0,2.55794,-11246.7,-49.3295)">
+            <rect x="3487.74" y="31.404" width="708.193" height="1454.39" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="3487.74" y="31.404" width="708.193" height="1454.39"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(0.237545,0,0,0.390302,2654.88,23.2247)">
+                    <rect x="3506.13" y="20.956" width="2981.3" height="3726.31" style="fill:white;"/>
+                </g>
+                <g transform="matrix(1.1778,0,0,0.712253,-835.829,443.711)">
+                    <g transform="matrix(1,0,0,1,-2.68055,88.0976)">
+                        <g transform="matrix(0.200901,0,0,0.586348,2787.2,-43.7031)">
+                            <rect x="6074.12" y="1146.54" width="715.379" height="403.815" style="fill:rgb(235,234,234);stroke:black;stroke-width:3px;"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,2.51157,0)">
+                            <g transform="matrix(0.131764,0,0,0.218961,3525.57,621.45)">
+                                <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:white;stroke:black;stroke-width:5.72px;"/>
+                            </g>
+                            <g transform="matrix(0.200901,0,0,0.548877,3215.44,465.97)">
+                                <text x="4121.88px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;error = Dr - Df&apos;</text>
+                            </g>
+                        </g>
+                        <g transform="matrix(1,0,0,1,2.51157,0)">
+                            <g transform="matrix(0.158014,0,0,0.218961,3415.74,712.992)">
+                                <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:white;stroke:black;stroke-width:4.98px;"/>
+                            </g>
+                            <g transform="matrix(0.200901,0,0,0.548877,3215.44,557.512)">
+                                <text x="4088.47px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;vAng = kp * error&apos;</text>
+                            </g>
+                        </g>
+                        <g transform="matrix(0.200901,0,0,0.548877,3034.59,-185.776)">
+                            <text x="4855.38px" y="1547.66px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Control P</text>
+                        </g>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-0.168986,-6.20606)">
+                        <g transform="matrix(0.125138,0,0,0.218961,3553.29,533.69)">
+                            <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:5.94px;"/>
+                        </g>
+                        <g transform="matrix(0.200901,0,0,0.548877,3215.44,378.21)">
+                            <text x="4153.11px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Calcular &apos;Df&apos;</text>
+                        </g>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-0.168986,131.214)">
+                        <g transform="matrix(0.257825,0,0,0.325249,2998.15,781.118)">
+                            <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                        </g>
+                        <g transform="matrix(0.200901,0,0,0.548877,3215.44,658.724)">
+                            <text x="3958.49px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Adaptar velocidad lineal &apos;vLin&apos;</text>
+                            <text x="3969.6px" y="532.249px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">a la velocidad angular &apos;vAng&apos;</text>
+                        </g>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,0.712253,-647.737,-95.7611)">
+                    <g transform="matrix(0.192201,0,0,0.218961,2820.08,225.172)">
+                        <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:4.24px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.548877,2762.81,69.6912)">
+                        <text x="4057.18px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Obtener distancia &apos;A&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,0.712253,-647.737,-89.3617)">
+                    <g transform="matrix(0.192201,0,0,0.218961,2820.08,326.36)">
+                        <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:4.24px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.548877,2762.81,170.88)">
+                        <text x="4057.18px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Obtener distancia &apos;B&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,0.712253,-835.829,440.149)">
+                    <g transform="matrix(0.174389,0,0,0.444822,3050.29,462.176)">
+                        <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:3.7px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.548877,2918.5,377.005)">
+                        <text x="4151.51px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Seguir recto</text>
+                        <text x="4177.37px" y="532.249px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;vAng = 0&apos;</text>
+                        <text x="4098.21px" y="583.885px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;vLin = vForward&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,0.712253,-478.96,-55.6382)">
+                    <g transform="matrix(0.241887,0,0,0.232247,2767.89,528.35)">
+                        <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:3.44px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.548877,2918.5,377.005)">
+                        <text x="3962.99px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state = FOLLOWING_W<tspan x="4511.09px 4544.44px " y="480.613px 480.613px ">AL</tspan>L&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,1.15039,-623.243,-41.0433)">
+                    <g transform="matrix(0.301886,0,0,0.143793,2656.67,379.714)">
+                        <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:2.81px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.339831,3058.31,286.011)">
+                        <text x="3888.44px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state = <tspan x="4060.61px 4093.96px " y="480.613px 480.613px ">AP</tspan>PROACHING_CORNER&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,1.15039,-671.656,34.0533)">
+                    <g transform="matrix(0.15939,0,0,0.143793,3252.85,379.714)">
+                        <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:4.89px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.339831,3058.31,286.011)">
+                        <text x="4080.63px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state = <tspan x="4254.65px 4285.2px " y="480.613px 480.613px ">TU</tspan>RNING&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,1.15039,-635.983,109.15)">
+                    <g transform="matrix(0.264387,0,0,0.143793,2813.56,379.714)">
+                        <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:3.18px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.339831,3058.31,286.011)">
+                        <text x="3929.63px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state = <tspan x="4101.8px 4135.15px " y="480.613px 480.613px ">AP</tspan>PROACHING_W<tspan x="4544.45px 4577.8px " y="480.613px 480.613px ">AL</tspan>L&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,0.712253,-829.715,440.149)">
+                    <g transform="matrix(0.208138,0,0,0.630825,3040.25,404.274)">
+                        <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:2.84px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.548877,3049.66,377.005)">
+                        <text x="4048.66px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Girar hacia el lado de</text>
+                        <text x="4051.41px" y="532.249px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">la pared con un radio</text>
+                        <text x="4169.76px" y="583.885px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">igual a &apos;Dr&apos;</text>
+                        <text x="4098.2px" y="635.521px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;vAng = vLin / Dr&apos;</text>
+                        <text x="4098.21px" y="687.156px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;vLin = vForward&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,0.712253,-379.732,444.767)">
+                    <g transform="matrix(0.196889,0,0,0.218961,2996.95,1214)">
+                        <rect x="3895.39" y="311.295" width="576.918" height="278.045" style="fill:none;stroke:black;stroke-width:4.15px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.548877,2959.3,1058.52)">
+                        <text x="4040.7px" y="480.613px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Publicar &apos;vLin&apos; y &apos;vAng&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2562.62,-223.353)">
+                    <circle cx="4472.3" cy="718.38" r="52.612" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,3062.05,1174.41)">
+                    <circle cx="4472.3" cy="718.38" r="52.612" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(1.1778,0,0,0.712253,-147.729,344.922)">
+                    <g transform="matrix(0.125218,0,0,0.548877,2961.29,19.9299)">
+                        <path d="M5290.24,880.6L5581.81,989.966L5290.24,1099.33L4998.68,989.966L5290.24,880.6Z" style="fill:none;stroke:black;stroke-width:3.73px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.548877,2532.45,-46.5989)">
+                        <text x="5368.19px" y="1128.78px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.1778,0,0,0.712253,-647.153,-88.3479)">
+                    <g transform="matrix(0.161688,0,0,0.548877,2768.35,19.9299)">
+                        <path d="M5290.24,880.6L5581.81,989.966L5290.24,1099.33L4998.68,989.966L5290.24,880.6Z" style="fill:none;stroke:black;stroke-width:3.42px;"/>
+                    </g>
+                    <g transform="matrix(0.200901,0,0,0.548877,2532.45,-46.5989)">
+                        <text x="5287.97px" y="1128.78px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state&apos;, &apos;A&apos;, &apos;B&apos;</text>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M571.936,190.499L562.614,209.143L553.292,190.499L571.936,190.499Z"/>
+                        <path d="M562.614,119.338L562.614,194.228" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M571.936,391.224L562.614,409.868L553.292,391.224L571.936,391.224Z"/>
+                        <path d="M562.614,320.063L562.614,394.953" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M571.936,591.948L562.614,610.592L553.292,591.948L571.936,591.948Z"/>
+                        <path d="M562.614,520.787L562.614,595.677" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <path d="M3791.23,860.325L3791.23,961.496L3867.02,961.496" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M1684.9,939.818L1703.55,930.496L1684.9,921.173L1684.9,939.818Z"/>
+                        <path d="M1688.63,930.496L1470.81,930.496" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <path d="M3791.23,961.496L3791.23,1153.59L3867.02,1153.59" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M1684.9,1131.91L1703.55,1122.59L1684.9,1113.27L1684.9,1131.91Z"/>
+                        <path d="M1688.63,1122.59L1404.3,1122.59" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,94.3814)">
+                    <path d="M3791.23,961.496L3791.23,1153.59L3867.02,1153.59" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,94.3814)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,-161.093)">
+                        <path d="M1684.9,1324L1703.55,1314.68L1684.9,1305.36L1684.9,1324Z"/>
+                        <path d="M1688.63,1314.68L1558.33,1314.68" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,169.478)">
+                    <path d="M3791.23,961.496L3791.23,1153.59L3867.02,1153.59" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,169.478)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,-353.185)">
+                        <path d="M1684.9,1516.1L1703.55,1506.77L1684.9,1497.45L1684.9,1516.1Z"/>
+                        <path d="M1688.63,1506.77L1180.27,1506.77" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M2682.58,1700.23L2673.26,1718.87L2663.94,1700.23L2682.58,1700.23Z"/>
+                        <path d="M2462.77,1506.77L2673.26,1506.77L2673.26,1703.95" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <path d="M5389.88,1345.68L5901.88,1345.68L5901.88,1537.77" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,-55.8117)">
+                    <path d="M5799.08,1345.68L5901.88,1345.68L5901.88,1537.77" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,-130.908)">
+                    <path d="M5626.78,1345.68L5901.88,1345.68L5901.88,1537.77" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <path d="M5720.15,1859.24L3771.29,1859.24L3771.29,1933.29" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2719.28,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3247.62,31)">
+                        <path d="M1230.69,2121.22L1221.37,2139.86L1212.05,2121.22L1230.69,2121.22Z"/>
+                        <path d="M1221.37,1828.24L1221.37,2124.95" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2719.06,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3248.56,31)">
+                        <path d="M2029.19,2121.22L2019.87,2139.86L2010.55,2121.22L2029.19,2121.22Z"/>
+                        <path d="M2019.87,1828.24L2019.87,2124.95" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M2029.19,2341.7L2019.87,2360.35L2010.55,2341.7L2029.19,2341.7Z"/>
+                        <path d="M2019.87,2250.78L2019.87,2345.43" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M2029.19,2882.65L2019.87,2901.3L2010.55,2882.65L2029.19,2882.65Z"/>
+                        <path d="M2019.87,2791.73L2019.87,2886.38" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M2682.58,3374.69L2673.26,3393.33L2663.94,3374.69L2682.58,3374.69Z"/>
+                        <path d="M2019.87,3066.06L2019.87,3237.64L2673.26,3237.64L2673.26,3378.42" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <path d="M4449.99,2490.42L4449.99,3268.4L5248.49,3268.4" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2534.84,19.2849)">
+                    <path d="M4569.79,2396.2L4569.79,3268.4L5248.49,3268.4" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2617.86,19.2849)">
+                    <path d="M3805.34,618.156L3805.34,1588.43" style="fill:none;stroke:black;stroke-width:25px;"/>
+                </g>
+                <g transform="matrix(0.407317,0,0,0.672959,1968.31,262.309)">
+                    <path d="M3805.34,618.156L3805.34,1588.43" style="fill:none;stroke:black;stroke-width:14.52px;"/>
+                </g>
+                <g transform="matrix(1.44889e-17,-0.39094,0.236621,2.39382e-17,2931.17,1891.42)">
+                    <text x="3372.61px" y="2422.08px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Cálculo del siguiente estado</text>
+                </g>
+                <g transform="matrix(1.44889e-17,-0.39094,0.236621,2.39382e-17,2931.17,2445.59)">
+                    <text x="3607.49px" y="2422.08px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">Estado</text>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2617.86,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3676.24,31)">
+                        <path d="M2682.58,3570.88L2673.26,3589.52L2663.94,3570.88L2682.58,3570.88Z"/>
+                        <path d="M2673.26,3504.25L2673.26,3574.6" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.842593,2662.64,-867.373)">
+                    <rect x="5238.97" y="1949.29" width="535.783" height="65.76" style="fill:white;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.842593,2473.28,-867.373)">
+                    <rect x="5238.97" y="1949.29" width="535.783" height="65.76" style="fill:white;"/>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2626.82,18.0724)">
+                    <text x="5417.71px" y="2020.51px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;FOLLOWING_W<tspan x="5800.43px 5833.78px " y="2020.51px 2020.51px ">AL</tspan>L&apos;</text>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2437.46,19.8906)">
+                    <text x="5534.9px" y="2020.51px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;TURNING&apos;</text>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2277.65,7.97914)">
+                    <text x="5341.78px" y="2020.51px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;APPROACHING_CORNER&apos;</text>
+                    <text x="5382.97px" y="2072.14px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;APPROACHING_W<tspan x="5835.17px 5868.52px " y="2072.14px 2072.14px ">AL</tspan>L&apos;</text>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2740.82,32.4857)">
+                    <text x="3820.8px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state ==</text>
+                    <text x="4024.93px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">APPROACHING_W<tspan x="4467.58px 4500.93px " y="915.155px 915.155px ">AL</tspan>L&apos; y</text>
+                    <text x="3820.8px" y="966.791px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">pared detectada en &apos;B&apos;</text>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2732.6,107.582)">
+                    <text x="3855.54px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state ==</text>
+                    <text x="4059.67px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">FOLLOWING_W<tspan x="4432.84px 4466.19px " y="915.155px 915.155px ">AL</tspan>L</text>
+                    <text x="4521.8px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos; y</text>
+                    <text x="3855.54px" y="966.791px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">pared no detectada en &apos;A&apos;</text>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2750.57,182.423)">
+                    <text x="3779.62px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state ==</text>
+                    <text x="3983.74px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">APPROACHING_CORNER</text>
+                    <text x="4597.73px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos; y</text>
+                    <text x="3779.62px" y="966.791px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">pared no detectada en &apos;B&apos;</text>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2706.61,256.835)">
+                    <text x="3964.27px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos;state ==</text>
+                    <text x="4168.4px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">TURNING</text>
+                    <text x="4396.16px" y="915.155px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">&apos; y</text>
+                    <text x="3964.27px" y="966.791px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">pared detectada en &apos;A&apos;</text>
+                </g>
+                <g transform="matrix(0.236621,0,0,0.39094,2723.78,19.2849)">
+                    <g transform="matrix(1,-0,-0,1,3228.62,31)">
+                        <path d="M551.993,2121.22L542.671,2139.86L533.349,2121.22L551.993,2121.22Z"/>
+                        <path d="M542.671,2044.03L542.671,2124.95" style="fill:none;stroke:black;stroke-width:3.11px;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
