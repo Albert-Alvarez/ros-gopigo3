@@ -4,7 +4,7 @@
 
 # Video de demostración
 
-Por si os sirve de ayuda, este demostración se realizó con los siguientes parámetros (más adelente tenéis la descripción de cada uno). Haz click en la imagen para ir al video.
+Por si os sirve de ayuda, esta demostración se realizó con los siguientes parámetros (más adelente tenéis la descripción de cada uno). Haz click en la imagen para ir al video.
 
 [![](http://img.youtube.com/vi/KQ6LOi9Uig4/0.jpg)](http://www.youtube.com/watch?v=KQ6LOi9Uig4 "Seguidor de línea con GoPiGo3 y ROS")
 
